@@ -32,7 +32,7 @@ optional arguments:
   --anchors ANCHORS  path to anchor definitions, default
                      model_data/yolo_anchors.txt
   --classes CLASSES  path to class definitions, default
-                     model_data/coco_classes.txt
+                     model_data/voc_classes.txt
   --gpu_num GPU_NUM  Number of GPU to use, default 1
   --image            Image detection mode, will ignore all positional arguments
   ```
