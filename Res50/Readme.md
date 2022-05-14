@@ -5,5 +5,5 @@ To train this model,we just need to run the file cnn.py. Note that there are 4 w
 
 ## Testing Process:
 To test this model,we can simply use the get_accuracy function of the neural network instance that we trained before. After we put the test images set and their labels into that function, the function will return the accuracy of the model's prediction.
-To test the specific class of a picture, you can use the predict_image function, the parameters are image path and the model path.Notice that the image size should be exactly 32*32*3.
+To test the specific class of a picture, you can use the predict_image function, the parameters are image path and the model path.Notice that the image size should be exactly $32*32*3$.
 To use the trained model,you can use `tf.keras.models.load_model(model_path)`
