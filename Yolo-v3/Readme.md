@@ -13,5 +13,5 @@ Use your trained weights or checkpoint weights with command line option --model 
 
 ## Testing
 To test the model on image, run the following code
-`python yolo_video.py [OPTIONS...] --image`, for image detection mode, OR
-python yolo_video.py [video_path] [output_path (optional)]`  
+`python yolo_video.py [OPTIONS...] --image, for image detection mode, OR`
+`python yolo_video.py [video_path] [output_path (optional)]`  
